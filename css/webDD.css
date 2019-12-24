@@ -5,38 +5,12 @@
 body { 
     font-family: "Courier New", Courier, monospace;
     background: url("../images/Decaf-Why.jpg") no-repeat center center fixed; 
-    -webkit-background-size: 75%;
-    -moz-background-size: 75%;
-    -o-background-size: 75%;
-    background-size: 75%;
-    margin: 5;
-    padding: 5;}
-
-h1, h3, p {
-    float: left;
-    clear: left;
-    width: 320px;
-    background-color: #fff;
-    color: #5a514c;
-    text-align: center;}
-
-
-h1 {
-    margin: 50px 0 0 50px;
-    height: 175px;
-    background-image: url("/* CSS for adding content example */
-
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:800italic);
-
-body { 
-    font-family: "Courier New", Courier, monospace;
-    background: url("../images/Decaf-Why.jpg") no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    margin: 0;
-    padding: 0;}
+    margin: 5;
+    padding: 5;}
 
 h1, h3, p {
     float: left;
