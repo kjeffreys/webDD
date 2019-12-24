@@ -4,15 +4,15 @@ var greeting;
 
 if (hourNow > 18)
 {
-    greeting = 'Good evening!';
+    greeting = 'Yes hi nice to DELICIOUS your day.';
 }
 else if (hourNow > 12)
 {
-    greeting = 'Good afternoon!';
+    greeting = 'Oh hi! We see your depravity. Order up!';
 }
 else if (hourNow > 0)
 {
-    greeting = 'Good morning!';
+    greeting = 'Yes hi nice to delicious you!';
 }
 else
 {
