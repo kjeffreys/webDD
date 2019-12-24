@@ -9,8 +9,8 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    margin: 5;
-    padding: 5;}
+    margin: 10;
+    padding: 10;}
 
 h1, h3, p {
     float: left;
@@ -24,7 +24,7 @@ h1, h3, p {
 h1 {
     margin: 50px 0 0 50px;
     height: 175px;
-    background-image: url("../images/Decaf-Why.jpg");
+    background-image: url("../i");
     background-repeat: no-repeat;
     text-indent: -9999px;
     border-top: 1px solid #bcbdc0;
@@ -63,12 +63,13 @@ html{
     height:100%;
     min-height:100%;}
 body{
-    min-height:100%;}");
+    min-height:100%;
     background-repeat: no-repeat;
     text-indent: -9999px;
     border-top: 1px solid #bcbdc0;
     border-left: 1px solid #bcbdc0;
     border-right: 1px solid #bcbdc0;}
+
 
 h3 {
     margin: 0 0 0 50px;
