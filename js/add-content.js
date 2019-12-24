@@ -12,7 +12,7 @@ else if (hourNow > 12)
 }
 else if (hourNow > 0)
 {
-    greeting = 'I'm coffee and I'm surprised your awake...';
+    greeting = 'I\'m COFFEE and I don\'t believe you\'re awake...';
 }
 else
 {
