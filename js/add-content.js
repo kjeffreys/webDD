@@ -4,15 +4,15 @@ var greeting;
 
 if (hourNow > 18)
 {
-    greeting = 'Yes hi nice to DELICIOUS your day.';
+    greeting = 'No. I won\'t search decaf. THANK ME!';
 }
 else if (hourNow > 12)
 {
-    greeting = 'Oh hi! We see your depravity. Order up!';
+    greeting = 'Yes hi nice to DELICIOUS your day. THANK ME!';
 }
 else if (hourNow > 0)
 {
-    greeting = 'Yes hi nice to delicious you!';
+    greeting = 'I'm coffee and I'm surprised your awake...';
 }
 else
 {
