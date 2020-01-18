@@ -4,14 +4,6 @@
 * Expressions will be written with JSON.
 *
 */
-
-/*
-
-Including test in comments for example of how function
-must accept inputs
-
-Tests will be run from lab1act2partA_test1.js
-
 console.log("TESTING calc()")
 var c = new Calc();
 
@@ -23,14 +15,6 @@ console.log(c.calc('{"op":"add", "number": 0}'));
 console.log(c.calc('{"op":"add", "number": 0}'));
 
 console.log('\n\n\n\n')
-*/
-
-
-/*
-Including test in comments for example of how function
-must accept inputs
-
-Tests will be run from lab1act2partA_test1.js
 
 // Testing exec()
 console.log("TESTING exec()")
@@ -47,4 +31,3 @@ var expA =
 }
 
 let val = exec(expA);
-*/
