@@ -24,7 +24,36 @@ console.log(c.calc('{"op":"add", "number": 0}'));
 
 console.log('\n\n\n\n')
 */
+/*
+* Implementing a test function for testing nodeJS in simple case
+* before proceeding to other potential solutions/problems
+*/
+function Calc()
+{
+    this.result = 0;
+    
+    
 
+    this.calc = function(jsonString)
+    {
+        let  calcString = JSON.parse(jsonString);
+        let operator = calcString.op
+        let operand = calcString.number
+
+        if(operator == "add")
+        {
+            this.result = this.result + operand;
+        }
+
+        if(operator == "subtract")
+        {
+            this.result = this.result - operand;
+        }
+
+        return this.result;
+
+    } //end calc()
+}
 
 /*
 Including test in comments for example of how function
