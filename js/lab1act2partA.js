@@ -4,26 +4,8 @@
 * Expressions will be written with JSON.
 *
 */
+"use strict";
 
-/*
-
-Including test in comments for example of how function
-must accept inputs
-
-Tests will be run from lab1act2partA_test1.js
-
-console.log("TESTING calc()")
-var c = new Calc();
-
-console.log(c.calc('{"op":"add", "number": 0}'));
-console.log(c.calc('{"op":"add", "number": 0}'));
-console.log(c.calc('{"op":"add", "number": 0}'));
-console.log(c.calc('{"op":"add", "number": 0}'));
-console.log(c.calc('{"op":"add", "number": 0}'));
-console.log(c.calc('{"op":"add", "number": 0}'));
-
-console.log('\n\n\n\n')
-*/
 /*
 * Implementing a test function for testing nodeJS in simple case
 * before proceeding to other potential solutions/problems
@@ -55,25 +37,16 @@ function Calc()
     } //end calc()
 }
 
-/*
-Including test in comments for example of how function
-must accept inputs
-
-Tests will be run from lab1act2partA_test1.js
-
-// Testing exec()
-console.log("TESTING exec()")
-
-var expA = 
+var exec = function(objArray)
 {
-    {"exp": {"op":"add", "number:0"}, "expected": 0}
-    {"exp": {"op":"add", "number:0"}, "expected": 0}
-    {"exp": {"op":"add", "number:0"}, "expected": 0}
-    {"exp": {"op":"add", "number:0"}, "expected": 0}
-    {"exp": {"op":"add", "number:0"}, "expected": 0}
-    {"exp": {"op":"add", "number:0"}, "expected": 0}
+    let temp = new Calc();
+
+    for(let i = 0; i < objArray.length; i++)
+    {
+        //assuming "exp is provided"
+        let str = JSON.stringify(objArray[i].exp);
+        console.log(temp.calc(str) + " : " + objArray[i].expected)
+
+    }
 
 }
-
-let val = exec(expA);
-*/
