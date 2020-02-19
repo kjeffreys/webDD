@@ -1,12 +1,9 @@
-var list = document.getElementsByTagName('ul')[0];
+var h2Changer = document.getElementsByTagName('mainGreeting');
 var newName = document.getElementById('username');
 
 
 function checkUsername() {                             
 
-    var newGreeting = document.createElement('li');
-    var newText = document.createTextNode('Hi ');
-    newGreeting.appendChild(newText);
-    list.appendChild(newGreeting);
+    h2Changer.innerText += newName.textContent;
 
   }
