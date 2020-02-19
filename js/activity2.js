@@ -1,7 +1,12 @@
-function checkUsername() {                             
-    var msg = document.getElementById('greeting');     
-    var userName = document.getElementById('username');                  
+var list = document.getElementsByTagName('ul')[0];
+var newName = document.getElementById('username');
 
-    msg.innerHTML = 'Hello there, ';
+
+function checkUsername() {                             
+
+    var newGreeting = document.createElement('li');
+    var newText = document.createTextNode('Hi ' + newName.textContent);
+    newGreeting.appendChild(newText);
+    list.appendChild(newGreeting);
 
   }
