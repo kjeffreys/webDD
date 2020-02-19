@@ -7,12 +7,14 @@
 </head>
 <body>
 -->
-  <head>
+
+<head>
     <title>Activity 2</title>
-  </head>
-  <body>
+</head>
+
+<body>
     <div id="page">
-      <!--R1. Greet the user by asking for name on startup in a simple form. 
+        <!--R1. Greet the user by asking for name on startup in a simple form. 
         The name should be "remembered" and used anywhere a direct naming of 
         the end user is appropriate. The web app should then start the conversation 
         with a question. The question should be a common greeting like 
@@ -20,17 +22,18 @@
         "Please enter your comments about the movie" and then follow with some article content. 
         If the user had already logged in and is returning back greet him with an alert
         box having a message like “Welcome back <name>” along with the greeting message-->
-      <form method="post">
-        <label for="username">Hi, what's your name?</label>
-        <input type="text" id="username" onblur="checkUsername()" />
-        <div id="feedback"></div>
-        <input type="submit" value="reply" />
-      </form>
+        <form action="https://postman-echo.com/get" METHOD="GET">
+            <label for="username">Hi, what's your name?</label>
+            <input type="text" id="username" onblur="checkUsername()" />
+            <div id="feedback"></div>
+            <input type="submit" value="reply" />
+        </form>
     </div>
     <script src="js/event-attributes.js"></script>
-  </body>
+</body>
+
 </html>
-    <!--
+<!--
     /*
     <form action="https://postman-echo.com/get" METHOD="GET">
         
@@ -77,6 +80,7 @@
         <input type="submit" value="Submit">
       </form>
     -->
-      
+
 </body>
+
 </html>
