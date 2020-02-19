@@ -2,7 +2,7 @@ function checkUsername() {
     var greeting = document.getElementById('reply');     
     var userName = document.getElementById('username');
     if (userName.value.length < 5) {                   
-      greeting.textContent = 'Username must be 5 characters or more'; 
+      greeting.textContent = 'Hi there' + userName; 
     } else {                                              
       greeting.textContent = 'Hi there' + userName;                             
     }

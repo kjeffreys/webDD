@@ -24,9 +24,9 @@
         box having a message like “Welcome back <name>” along with the greeting message-->
         <form>
             <label for="username">Hi, what's your name?</label>
-            <input type="text" id="username" onblur="checkUsername()" />
+            <input type="text" id="username"/>
             <div id="feedback"></div>
-            <input type="submit" value="reply" />
+            <input type="submit" value="Submit" onsubmit="checkUsername()" />
         </form>
     </div>
     <script src="js/event-attributes.js"></script>
