@@ -1,14 +1,19 @@
+/*
 var today = new Date();
 var hourNow = today.getHours();
 var greeting;
 
 if (hourNow > 18)
 {
-    greeting = 'No. I won\'t search decaf. THANK ME!';
+    greeting = '';
 }
 else if (hourNow > 12)
 {
-    greeting = 'Yes hi nice to DELICIOUS your day. THANK ME!';
+    greeting = 'Yes hi nice to DELICIOUS your day.';
+}
+else if (hourNow > 6)
+{
+    greeting = 'May the Force be with your coffee.'
 }
 else if (hourNow > 0)
 {
@@ -20,3 +25,4 @@ else
 }
 
 document.write('<h3>' + greeting + '</h3>');
+*/
